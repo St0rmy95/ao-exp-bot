@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsrExpBooster", "OsrExpBooster.csproj", "{965FD7C4-0862-466C-8F7F-5366140618B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9477FBFE-AA87-4FD2-BB5A-55542E659198} = {9477FBFE-AA87-4FD2-BB5A-55542E659198}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AceNetworking", "..\..\EternalSkies\Sources\Main\ProjectsTools\AceNetworking\AceNetworking\AceNetworking.csproj", "{9477FBFE-AA87-4FD2-BB5A-55542E659198}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{965FD7C4-0862-466C-8F7F-5366140618B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965FD7C4-0862-466C-8F7F-5366140618B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965FD7C4-0862-466C-8F7F-5366140618B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965FD7C4-0862-466C-8F7F-5366140618B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9477FBFE-AA87-4FD2-BB5A-55542E659198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9477FBFE-AA87-4FD2-BB5A-55542E659198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9477FBFE-AA87-4FD2-BB5A-55542E659198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9477FBFE-AA87-4FD2-BB5A-55542E659198}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
